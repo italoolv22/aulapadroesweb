@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+  </head>
+<body>
+  <div id="area">
+    <form id="formulario" autocomplete="off">
+      <fieldset>
+        <legend>Formulário</legend>
+        <label>Nome:</label><input class="campo_nome" type="text"><br>
+
+        <label for="data_nascimento">Data de Nascimento:</label>   
+          <input type="date" id="data_nascimento" name="data_nascimento" required><br>
+
+
+
+      <form action="" method="">
+        <p>Sexo:
+        <input type="radio" id="id_m" name="genero">
+        <label for="id_m">Masc</label> 
+
+        <input type="radio" id="id_f" name="genero"
+        <label for="id_f">Fem</label>
+
+        <input type="radio" id="id_n" name="genero"
+        <label for="id_n">Prefiro não informar</label> </p>
+
+      </form>
+
+
+
+      </form>
+
+      </select>
+      <h1>Endereço:</h1>
+
+      <label for="logradouro">Logradouro:</label> <br>
+      <input type="text" id="logradouro" name="logradouro" required><br>
+
+      <label for="bairro">Bairro:</label> <br>
+      <input type="text" id="bairro" name="bairro" required><br>
+      
+      <label for="cidade">Cidade:</label> <br>
+      <input type="text" id="cidade" name="cidade" required><br>
+      <label for="uf">UF:</label>
+      <select id="uf" name="uf" required>
+        <option value="">Selecione</option>
+        <option value="DF">DF</option>
+        <option value="GO">GO</option><br>
+        <option value="SP">SP</option><br>
+        <option value="RJ">RJ</option><br>
+        <option value="Outro">Outro</option><br>
+        </select><br>
+      <label>Email:</label><input class="campo_email" type="text"><br>
+        </textarea><br>
+        <input class="btn_submit" type="submit" value="Enviar">
+        <input class="btn_submit" type="submit" value="Limpar">
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
